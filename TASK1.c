@@ -9,8 +9,9 @@ int main () {
         printf("%d: ", i);
         for(int j=1;j<=10;j++) {
             int total = i * j;
-            printf("%d ", total);
+            printf("%4d ", total);
         }
         printf("\n");
     }
 }
+
