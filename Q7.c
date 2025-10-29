@@ -3,28 +3,28 @@
 int main () {
     int n=5, i ,j;
     
-    for(i=1;i<=n;i++) {
-        for(j=1;j<=n - i + 1;j++) {
+    for(i=1;i<=2*n;i+=2) {
+        for(j=1;j<=2*n - i;j++) {
             printf(" ");
         }
         for(j =1;j<= i;j++) {
             printf("* ");
         }
-        for(j=1;j<=n - i + 1;j++) {
+        for(j=1;j<=2*n - i + 1;j++) {
             printf(" ");
         }
         printf(" | ");
-        for(j=1;j<=n - i + 1;j++) {
+        for(j=1;j<=2*n - i + 1;j++) {
             printf(" ");
         }
         for(j =1;j<= i;j++) {
-            printf("%d ",i);
+            printf("%d ",j);
         }
-        for(j=1;j<=n - i + 1;j++) {
+        for(j=1;j<=2*n - i + 1;j++) {
             printf(" ");
         }
         printf(" | ");
-        for(j=1;j<=n - i + 1;j++) {
+        for(j=1;j<=2*n - i + 1;j++) {
             printf(" ");
         }
         for(j =1;j<= i;j++) {
